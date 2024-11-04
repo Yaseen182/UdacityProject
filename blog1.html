@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Card</title>
+        <link rel="stylesheet" href="blog1.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Programming Blog</h1>
+            <a href="#" class="search">🔍</a>
+            <a href='#' class="sub">Subscribe</a>
+        </div>
+    <main class="main">
+        <article class="article">
+           <h2>HTML Blog post</h2> 
+           <p class="date"><small>November 10, 2020 by <a class="greylink" href="#">Yaseen</a></small></p>
+           <blockquote class="quote">Programming isn't about what you know; it's about what you can figure out.</blockquote>
+           <p>HTML, or HyperText Markup Language, is the standard language used to create and structure content on the web. It forms the backbone of all web pages, allowing developers to define the structure and layout of text, images, and other multimedia elements. Since its inception, HTML has evolved significantly, becoming more powerful and versatile, enabling the creation of complex and interactive websites.</p>
+           <h3>Basic Structure of an HTML Document</h3>
+           <p>An HTML document is composed of various elements, each enclosed within tags. The basic structure of an HTML document includes the DOCTYPE declaration, which defines the document type and version of HTML being used. This is followed by the html element, which encloses all the content of the HTML document.</p>
+           <h3>Creating Links and images</h3>
+           <p>Creating Links and Embedding Images
+            HTML allows for the creation of hyperlinks and the embedding of images, which are essential for web navigation and enhancing user experience.
+            Hyperlinks are created using the a (anchor) element. This element includes an href attribute that specifies the URL of the page the link goes to. Text between the opening and closing a tags is the clickable part of the link.
+            Images are embedded using the img element, which includes attributes such as src (source) for the image file path and alt (alternative text) for a description of the image.</p>
+            <h3>Important elements in HTML</h3>
+            <ul>
+               <li> DOCTYPE Declaration: Ensures the browser renders the page correctly.</li>
+                <li>html Element: The root element that encloses all the content.</li>
+                <li>head Section: Contains meta-information about the document.</li>
+                <li>title Element: Sets the title of the document.</li>
+                <li>body Section: Contains the visible content. </li>
+            </ul>
+            <h3>Addtional component you can do in HTML</h3>
+            <ol>
+                <li>Lists</li>
+                <li>Tables</li>
+                <li>Forms</li>
+            </ol>
+
+        </article>
+        <aside>
+            <div class="about">
+                <h2>About</h2>
+                <p>This Blog by Yaseen.<br> who is an instructor in <em>PTUK khadoori</em></p>
+            </div>
+            <div class="arch">
+                <h2>Archives</h2>
+                    <a class="greylink" href="#">March 2020</a><br>
+                    <a class="greylink" href="#">February 2020</a><br>
+                    <a class="greylink" href="#">January 2020</a><br>
+                    <a class="greylink" href="#">April 2020</a><br>
+                    <a class="greylink" href="#">May 2020</a>
+            </div>
+            <div class="else">
+                <h2>Elsewhere</h2>
+                <a class="greylink" href="#">Twitter</a><br>
+                <a class="greylink" href="#">Facebook</a><br>
+                <a class="greylink" href="#">LinkedIn</a>
+            </div>
+            <div>
+                <button class="btn" onclick="location.href='blog.html'">Return to main page</button>
+                <button class="btn" onclick="location.href='blog2.html'">Go to Next Blog</button>
+
+            </div>
+        </aside>
+        <footer class="footer">
+            <p>&copy; 2024 Yaseen Ashqar. All rights reserved.</p>
+            <p>
+                <a class="greylink" href="https://privacy-policy">Privacy Policy</a> |
+                <a class="greylink" href="https://terms-of-service">Terms of Service</a>
+            </p>
+        </footer>
+    </main>   
+    </body>
+
+</html>
